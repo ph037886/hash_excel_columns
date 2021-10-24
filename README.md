@@ -8,6 +8,7 @@ hash one excel file with sheets and columns
 所以就總結出這個小專案
 
 1. 包含讀入與存的視窗
-2. 每一個sheet分別執行
-3. 輸入欄位號碼
-
+2. 讀取讀入檔名，並作為預設存檔檔名
+3. 每一個sheet分別執行
+4. 輸入欄位號碼
+5. 用亂數產生salt，同一個Excel裡面用同一個salt，這樣同時有去辨識也能在同一個excel中做分組運算
